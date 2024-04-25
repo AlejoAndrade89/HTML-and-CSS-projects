@@ -22,3 +22,4 @@ Feel free to contribute to this repository by adding your own HTML and CSS proje
 
 - HTML5
 - CSS3
+- JAVASCRIPT (some)
