@@ -1,0 +1,46 @@
+.contact1 {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group div {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  width: 100px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.form-group input {
+  flex: 1;
+}
+
+.Pet_Images {
+  text-align: center;
+  align-items: center;
+}
+
+nav {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.home1 {
+  text-align: center;
+}
+
+.videosec1 {
+  text-align: center;
+  align-items: center;
+}
