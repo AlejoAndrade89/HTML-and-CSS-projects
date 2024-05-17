@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 150px; /* Should be removed. Only for demonstration */
+  width: 100%;
+  border: 3px solid salmon;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  color: crimson;
+}
+
+.hovering {
+  background-color: burlywood;
+  padding: 20px;
+  display: none;
+}
+
+span:hover + .hovering {
+  display: block;
+}

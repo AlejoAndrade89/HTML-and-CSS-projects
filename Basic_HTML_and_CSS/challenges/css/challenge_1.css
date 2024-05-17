@@ -1,0 +1,19 @@
+/*CENTERING AN IMAGE - APPLYING FILTER - BORDER RADIUS*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  filter: grayscale(50%);
+  border: 3px solid crimson;
+  padding: 10px;
+  border-radius: 25px;
+}
+/*FOOTER TAG- TEXT-ALIGN AND FONT-WEIGHT */
+.footer-text {
+  text-align: center;
+}
+
+p.thicker {
+  font-weight: 900;
+}
