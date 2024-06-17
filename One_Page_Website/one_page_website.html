@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paws & Claws Pet Shop</title>
     <link rel="stylesheet" href="./CSS/one_page_website.css">
+
 </head>
 
 <body>
@@ -26,12 +27,83 @@
     </section>
 
     <!-- Gallery Section -->
+
     <section class="Pet_Images" id="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery">
-            <img src="pet1.jpg" alt="Pet 1">
-            <img src="pet2.jpg" alt="Pet 2">
-            <!-- Add more images as needed -->
+
+        <h2 style="text-align:center">Gallery</h2>
+
+        <div class="row">
+            <div class="column">
+                <img src="https://images.pexels.com/photos/160846/french-bulldog-summer-smile-joy-160846.jpeg?cs=srgb&dl=pexels-pixabay-160846.jpg&fm=jpg"
+                    style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="https://images.pexels.com/photos/1629781/pexels-photo-1629781.jpeg" style="width:100%"
+                    onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="https://wallpaperset.com/w/full/f/4/0/4247.jpg" style="width:100%"
+                    onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/young-seal-smiles-and-waves-royalty-free-image-1585073751.jpg"
+                    style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            </div>
+        </div>
+
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="https://images.pexels.com/photos/160846/french-bulldog-summer-smile-joy-160846.jpeg?cs=srgb&dl=pexels-pixabay-160846.jpg&fm=jpg"
+                        style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="https://images.pexels.com/photos/1629781/pexels-photo-1629781.jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="https://wallpaperset.com/w/full/f/4/0/4247.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/young-seal-smiles-and-waves-royalty-free-image-1585073751.jpg"
+                        style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+
+                <div class="column">
+                    <img class="demo cursor"
+                        src="https://images.pexels.com/photos/160846/french-bulldog-summer-smile-joy-160846.jpeg?cs=srgb&dl=pexels-pixabay-160846.jpg&fm=jpg"
+                        style="width:100%" onclick="currentSlide(1)" alt="frenchie">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="https://images.pexels.com/photos/1629781/pexels-photo-1629781.jpeg"
+                        style="width:100%" onclick="currentSlide(2)" alt="doggie">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="https://wallpaperset.com/w/full/f/4/0/4247.jpg" style="width:100%"
+                        onclick="currentSlide(3)" alt="cat">
+                </div>
+                <div class="column">
+                    <img class="demo cursor"
+                        src="https://hips.hearstapps.com/hmg-prod/images/young-seal-smiles-and-waves-royalty-free-image-1585073751.jpg"
+                        style="width:100%" onclick="currentSlide(4)" alt="seaLion">
+                </div>
+            </div>
         </div>
     </section>
 
@@ -76,5 +148,6 @@
     </footer>
 
 </body>
+<script src="./Js/one_page_website.js" defer></script>
 
 </html>
