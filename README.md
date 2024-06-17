@@ -47,16 +47,16 @@ This repository contains all the projects I have completed as part of the HTML a
         - A horizontal navigation menu styled with CSS.
         - Various CSS effects applied to images.
         - A series of CSS challenges to practice and demonstrate CSS skills.
-    - **Live Link**: [Basic HTML and CSS](https://AlejoAndrade89.github.io/basic-html-css/)
+    - **Live Link**: [Basic HTML and CSS](Basic_HTML_and_CSS)
 
-3. **Project 4: The Spacce Station Resort**
+3. **Project 4: The Space Station Reserves**
     - **Description**: A website for "The Spacce Station Resort" showcasing a gallery of space-themed images and a reservations section.
     - **Technologies**: HTML, CSS
     - **Key Features**:
         - A navigation menu with links to different sections of the page.
         - A gallery section displaying space-themed images with hover effects.
         - A reservations section with a form for users to provide contact information.
-    - **Live Link**: [The Spacce Station Resort](https://AlejoAndrade89.github.io/the-spacce-station-resort/)
+    - **Live Link**: [The Spacce Station Resort](The_SpacesStation_Project)
 
 4. **Project 4: Academy Cinemas Website**
     - **Description**: A mock website for a cinema, showcasing movies, showtimes, and special deals.
